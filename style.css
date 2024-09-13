@@ -1,0 +1,68 @@
+  body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: antiquewhite;
+  }
+
+  header{
+    background-color: #0b6477;
+    color: #0b6477;
+    padding: 20px 0;
+    text-align: center;
+  }
+
+  header h1{
+    margin: 0;
+    font-size: 2.5em;
+  }
+
+  nav{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color:#0AD1C8;
+  }
+
+  nav a{
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 1.2em;
+  
+  }
+
+  nav a:hover{
+    background-color: 666;
+  }
+
+  section{
+    margin: 20px;
+    padding: 20px;
+    background-color: aliceblue;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  h2{
+    text-align: center;
+  }
+
+  .about, .project, .contact{
+    margin: 20px;
+  }
+  .project.project{
+    margin: 10px 0;
+  }
+
+  footer{
+    background-color: aliceblue;
+    color: aliceblue;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+
+
